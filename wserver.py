@@ -97,7 +97,7 @@ img{
 .intro{
     text-align: center;
     margin-bottom: 2vh;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 .social a{
@@ -473,7 +473,7 @@ section button{
 }
 
 section button:hover, section button:focus{
-    background-color: rgba(255, 255, 255, 0.068);
+    background-color: rgba(255, 255, 255, 0.088);
 }
 
 section span{
