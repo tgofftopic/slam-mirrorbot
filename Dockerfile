@@ -5,6 +5,7 @@ RUN chmod 777 /usr/src/app
 
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
+RUN apt-get -qq install -y mediainfo
 
 COPY extract /usr/local/bin
 COPY pextract /usr/local/bin
